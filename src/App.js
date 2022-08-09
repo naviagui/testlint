@@ -1,12 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-
+"use strict";
+exports.__esModule = true;
+var react_1 = require("react");
+var logo_svg_1 = require("./logo.svg");
+require("./App.css");
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo_svg_1["default"]} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -23,5 +24,4 @@ function App() {
     </div>
   );
 }
-
-export default App;
+exports["default"] = App;
